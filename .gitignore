@@ -1,0 +1,10 @@
+# Python
+.venv
+
+# Apple
+.DS_Store
+
+# Files
+*.pdf
+code/src/*
+!code/src/*.py

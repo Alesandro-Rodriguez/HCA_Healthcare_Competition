@@ -1,0 +1,4 @@
+# Include packages and versions listed as below. Don't include dependencies 
+# required by the packages you use - just hte main packages.
+# matplotlib==3.9.2
+# pandas==2.2.2
