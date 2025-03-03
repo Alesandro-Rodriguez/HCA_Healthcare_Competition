@@ -1,12 +1,15 @@
-# Project Title
-A brief, one-line description of your project.
+# AIS HCA Healthcare Challenge
+The project analyzes HCA hospital locations and disaster risk data to assess hospital preparedness, staffing levels, and resource availability in high-risk areas for better disaster response planning.
+
+# Participants
+Alesandro Rodriguez
+Christopher Sequeira
 
 ## Table of Contents
 - [Overview](#Overview)
 - [Dataset](#dataset)
 - [Results & Insights](#results--insights)
 - [Project Structure](#project-structure)
-- [How to Run the Code](#how-to-run-the-code)
 
 ## Overview
 Our mission is to enhance patient assistance through optimized resource allocation, emergency preparedness, and disaster relief, ensuring timely, equitable, and efficient care.
@@ -41,21 +44,3 @@ Provide a short summary of your project:
   environment.
 - `requirements.txt` Information on the reproducible environment.
 
-## Installation
-1. Clone the repository
-```
-git clone https://github.com/yourusername/project-name.git
-```
-2. Navigate to the project directory
-```
-cd project-name
-```
-3. Run the following to create the `/.venv` project library and install the specified library versions.
-```
-python -m venv .venv
-pip install -r requirements.txt
-```
-4. Run the main script
-```
-python main.py
-```
