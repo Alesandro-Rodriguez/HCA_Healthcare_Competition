@@ -9,6 +9,10 @@ A brief, one-line description of your project.
 - [How to Run the Code](#how-to-run-the-code)
 
 ## Overview
+Our mission is to enhance patient assistance through optimized resource allocation, emergency preparedness, and disaster relief, ensuring timely, equitable, and efficient care.
+
+During natural disasters, patient care is affected due to inadequate resource allocation and uneven workforce distribution across HCA facilities. The plan aims to improve emergency response and resource management.
+
 Provide a short summary of your project:
 - What problem does it solve?
 - Why is it important?
