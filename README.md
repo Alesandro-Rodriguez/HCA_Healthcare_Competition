@@ -3,6 +3,7 @@ The project analyzes HCA hospital locations and disaster risk data to assess hos
 
 # Participants
 Alesandro Rodriguez
+&
 Christopher Sequeira
 
 ## Table of Contents
