@@ -25,7 +25,7 @@ Provide a short summary of your project:
 - Include a high-level overview of the workflow.
 
 ## Dataset
-- Source: [Link to dataset] (if applicable)
+- Source: HCA Data was provided by HCA themselves. We incorporated the FEMA data: [https://hazards.fema.gov/nri/data-resources] 
 - Description: Briefly describe the dataset, including the number of rows/columns and key variables.
 - Any preprocessing or cleaning steps performed.
 
