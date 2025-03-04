@@ -17,7 +17,7 @@ Our mission is to enhance patient assistance through optimized resource allocati
 
 During natural disasters, patient care is affected due to inadequate resource allocation and uneven workforce distribution across HCA facilities. The plan aims to improve emergency response and resource management.
 
-# Project Summary  
+## Project Summary  
 
 ## Problem Statement  
 Hospitals in disaster-prone areas need better preparedness and resource allocation to ensure effective patient care during emergencies. However, staffing shortages and poor resource distribution in high-risk areas can lead to operational inefficiencies during disasters.  
@@ -52,7 +52,8 @@ Hospitals in disaster-prone areas need better preparedness and resource allocati
 
 ## Dataset
 - Source: HCA Data was provided by HCA themselves. We incorporated the FEMA data: [https://hazards.fema.gov/nri/data-resources] 
-# Dataset Description  
+
+## Dataset Description  
 
 ## Number of Rows  
 - 238,221  
@@ -80,7 +81,7 @@ Hospitals in disaster-prone areas need better preparedness and resource allocati
 
 ---
 
-# Preprocessing & Cleaning Steps  
+## Preprocessing & Cleaning Steps  
 
 ### **1. Standardized Location Data**  
 - Merged **HCA hospital data** with **FEMA disaster dataset** using **state and county**.  
