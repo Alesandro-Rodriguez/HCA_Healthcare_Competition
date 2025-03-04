@@ -12,7 +12,7 @@ Christopher Sequeira
 - [Results & Insights](#results--insights)
 - [Project Structure](#project-structure)
 
-## Overview
+# Overview
 Our mission is to enhance patient assistance through optimized resource allocation, emergency preparedness, and disaster relief, ensuring timely, equitable, and efficient care.
 
 During natural disasters, patient care is affected due to inadequate resource allocation and uneven workforce distribution across HCA facilities. The plan aims to improve emergency response and resource management.
@@ -50,7 +50,7 @@ Hospitals in disaster-prone areas need better preparedness and resource allocati
 - **U.S. Map** highlighting high-risk states and counties.  
 - **Scatter plot** comparing hospital staffing levels vs. disaster risk.   
 
-## Dataset
+# Dataset
 - Source: HCA Data was provided by HCA themselves. We incorporated the FEMA data: [https://hazards.fema.gov/nri/data-resources] 
 
 ## Dataset Description  
@@ -98,12 +98,12 @@ Hospitals in disaster-prone areas need better preparedness and resource allocati
 - Ensured **all states are represented** in the dataset, even if no disaster data existed.  
 - Filled missing **county-level information** where possible.  
 
-## Results & Insights
+# Results & Insights
 - Summarize key findings with visuals if possible (attach images or link to a report).
 - What patterns, relationships, or predictions did you discover?
 - How can these insights be applied in a real-world setting?
 
-## Project Structure
+# Project Structure
 - `/code` Scripts with prefixes (e.g., `01_import-data.py`,
   `02_clean-data.py`) and functions in `/code/src`.
 - `/data` project data sets.
