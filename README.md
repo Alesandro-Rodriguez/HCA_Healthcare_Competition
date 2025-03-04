@@ -48,16 +48,54 @@ Hospitals in disaster-prone areas need better preparedness and resource allocati
 
 ### 3. Visualization & Insights  
 - **U.S. Map** highlighting high-risk states and counties.  
-- **Scatter plot** comparing hospital staffing levels vs. disaster risk.  
-
-### 4. Final Recommendations  
-- Highlighted **understaffed high-risk hospitals**.  
-- Suggested **potential support hospitals** for emergency assistance.   
+- **Scatter plot** comparing hospital staffing levels vs. disaster risk.   
 
 ## Dataset
 - Source: HCA Data was provided by HCA themselves. We incorporated the FEMA data: [https://hazards.fema.gov/nri/data-resources] 
-- Description: Briefly describe the dataset, including the number of rows/columns and key variables.
-- Any preprocessing or cleaning steps performed.
+# Dataset Description  
+
+## Number of Rows  
+- 238,221  
+
+## Number of Columns  
+- 21  
+
+## Key Variables  
+
+### **HCA Hospital Data**  
+- `HCA_facility_city`, `HCA_facility_state`, `HCA_county_updated`: Location details of the hospital.  
+- `HCA_Emp34Id`: Unique employee ID.  
+- `HCA_EmpDepartment`, `HCA_EmpDepartmentName`, `HCA_EmpPositionDesc`: Employee role and department information.  
+- `HCA_MgrTitle`: Manager title.  
+- `HCA_EmpAnnivDate`, `HCA_EmpPositionIsSuper`, `HCA_EmpRNExperienceDate`: Employment details such as tenure and position level.  
+- `HCA_Tenure`: Employee tenure in years.  
+
+### **Disaster Risk Data**  
+- `Risk_Categories`: Disaster risk classification (e.g., High Risk, Medium Risk).  
+- `state`, `designatedArea - Split 1`: State and county details from disaster dataset.  
+- `disaster_count`: Total number of recorded disasters in the county/state.  
+
+### **Disaster Types**  
+- `Coastal Storm`, `Dam/Levee Break`, `Earthquake`, `Fire`, `Flood`, `Hurricane`, `Mud/Landslide`, `Other`, `Severe Ice Storm`, `Severe Storm`, `Snowstorm`, `Straight-Line Winds`, `Tornado`, `Tropical Storm`, `Volcanic Eruption`, `Winter Storm`.  
+
+---
+
+# Preprocessing & Cleaning Steps  
+
+### **1. Standardized Location Data**  
+- Merged **HCA hospital data** with **FEMA disaster dataset** using **state and county**.  
+- Cleaned inconsistencies in **county names** (`HCA_county_updated`) for accurate joins.  
+
+### **2. Assigned Disaster Risk Categories**  
+- Created `Risk_Categories` field based on **disaster_count** using thresholds:  
+  - **Low Risk:** 0-50  
+  - **Moderate Risk:** 51-150  
+  - **High Risk:** 151-300  
+  - **Severe Risk:** 301+  
+
+### **3. Dealing with Missing Data**  
+- Ensured **all states are represented** in the dataset, even if no disaster data existed.  
+- Filled missing **county-level information** where possible.  
 
 ## Results & Insights
 - Summarize key findings with visuals if possible (attach images or link to a report).
