@@ -88,24 +88,16 @@ Hospitals in disaster-prone areas need better preparedness and resource allocati
 - Cleaned inconsistencies in **county names** (`HCA_county_updated`) for accurate joins.  
 
 ### **2. Assigned Disaster Risk Categories**  
-- Created `Risk_Categories` field based on **disaster_count** using thresholds:  
-  - **Low Risk:** 0-50  
-  - **Moderate Risk:** 51-150  
-  - **High Risk:** 151-300  
-  - **Severe Risk:** 301+  
+- Created `Risk_Categories` field based on **disaster_count** using thresholds.
 
 ### **3. Dealing with Missing Data**  
-- Ensured **all states are represented** in the dataset, even if no disaster data existed.  
 - Filled missing **county-level information** where possible.  
 
 # Results & Insights
-- Summarize key findings with visuals if possible (attach images or link to a report).
-- What patterns, relationships, or predictions did you discover?
-- How can these insights be applied in a real-world setting?
+We developed a data-driven approach to identify high-risk counties, assess workforce vulnerability, and guide resource allocation for HCA’s disaster planning. The analysis highlights counties facing the highest disaster impact and workforce strain, enabling decision-makers to optimize emergency response. A structured three-zone relief strategy ensures efficient allocation, with primary zones focusing on immediate evacuations, secondary zones reinforcing medical support, and tertiary zones aiding long-term recovery. Population size plays a key role, with larger counties requiring more resources while smaller ones function as supply hubs. A real-time monitoring system and centralized dashboard are crucial for tracking disaster trends, employee distribution, and resource availability. While current data identifies high-risk areas, integrating external data, operational planning, and strategic investments will further strengthen disaster preparedness.
 
 # Project Structure
-- `/code` Scripts with prefixes (e.g., `01_import-data.py`,
-  `02_clean-data.py`) and functions in `/code/src`.
+- `/code` Our code/Tableau file is located here.
 - `/data` project data sets.
 - `/figures` PNG images and plots.
 - `/presentations` Presentation slides.
