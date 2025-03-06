@@ -43,7 +43,7 @@ Hospitals in disaster-prone areas need better preparedness and resource allocati
 - Standardized state and county fields for proper merging.  
 
 ### 2. Risk Analysis  
-- Categorized hospitals into **risk levels based on disaster frequency**.  
+- Categorized states into **risk levels based on disaster frequency**.  
 - Compared **staffing levels vs. disaster risk**.  
 
 ### 3. Visualization & Insights  
