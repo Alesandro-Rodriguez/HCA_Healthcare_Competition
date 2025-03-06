@@ -35,7 +35,7 @@ Hospitals in disaster-prone areas need better preparedness and resource allocati
 
 ## Analytical Approach  
 - **Exploratory Data Analysis (EDA)** to identify patterns in disaster frequency, risk categories, and hospital staffing (In Tableau).  
-- **Risk classification** using disaster count thresholds (e.g., Low, Moderate, High, Severe).  
+- **Risk classification** using disaster count thresholds (e.g., Low, Medium, High).  
 
 ## High-Level Workflow  
 ### 1. Data Collection & Cleaning  
