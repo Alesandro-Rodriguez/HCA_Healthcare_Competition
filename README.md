@@ -29,9 +29,9 @@ Hospitals in disaster-prone areas need better preparedness and resource allocati
 
 ## Approach  
 - Merged HCA hospital data with FEMA disaster data to assess hospital risk at the state and county level.  
-- Assigned risk categories to hospitals based on historical disaster frequency.  
+- Assigned risk categories to states based on historical disaster frequency.  
 - Analyzed hospital staffing levels in high-risk vs. low-risk areas to identify potential staffing shortages.  
-- Mapped hospitals to potential nearby locations that could serve as backup facilities.  
+- Mapped high-risk counties to potential nearby counties that could serve as backup facilities.  
 
 ## Analytical Approach  
 - **Exploratory Data Analysis (EDA)** to identify patterns in disaster frequency, risk categories, and hospital staffing (In Tableau).  
@@ -53,7 +53,7 @@ Hospitals in disaster-prone areas need better preparedness and resource allocati
 # Dataset
 - Source: HCA Data was provided by HCA themselves. We incorporated the FEMA data: [https://hazards.fema.gov/nri/data-resources] 
 
-## Dataset Description  
+## Dataset Description of Final output  
 
 ## Number of Rows  
 - 238,221  
